@@ -1,3 +1,5 @@
+import { render, screen } from '@testing-library/react';
+
 it(`should render instructions when "Get Started" button is clicked`, () => {
   render(<MyButtonComponent />);
 
