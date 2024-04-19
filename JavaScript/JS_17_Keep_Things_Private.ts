@@ -21,4 +21,4 @@ class Person {
 
 const person = new Person('John', 'Doe');
 console.log(person.getFullName()); // 'John Doe'
-console.log(person.$lastFirst()); // Not accessible
+console.log(person.#lastFirst()); // Not accessible
